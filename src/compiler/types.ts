@@ -2442,6 +2442,10 @@ namespace ts {
         allowJs?: boolean;
         noImplicitUseStrict?: boolean;
         disableSizeLimit?: boolean;
+        strictNullChecks?: boolean;
+        skipLibCheck?: boolean;
+        listEmittedFiles?: boolean;
+        lib?: string[];
         /* @internal */ stripInternal?: boolean;
 
         // Skip checking lib.d.ts to help speed up tests.
